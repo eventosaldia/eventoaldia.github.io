@@ -1,0 +1,101 @@
+body{
+    background: #FDCAE1;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FDCAE1;
+    margin: 10px;
+    font-size: 42px;
+}
+.contenedor1{
+    margin: 10px;
+}
+.contenedor2{
+    margin: 10px;
+}
+.contenedor3{
+    margin: 10px;
+}
+.contenedor4{
+    margin: 10px;
+}
+img{
+    display: inline-block;
+    margin: 10px;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    align-items: center;
+    margin: 20px;
+    text-align: justify;
+}
+h2{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.uno {
+    text-align: right;
+    font-size: 20px;
+    margin: 20px;
+}
+.logo{
+    max-width: 15%;
+    float: left;
+}
+nav{
+    display: block;
+}
+nav a {
+    background: #FFB6C1;
+}
+.logo2{
+    max-width: 10%;
+    float: right;
+}
+
+.Galeriia{
+    display: flex;
+    flex: inline-block;
+    width: 100%;
+    
+}
+.imagenes{
+    width: 100%;
+    position: relative;
+
+}
+.overley{
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    background: #FFB6C1;
+    width: 86%;
+    height: 0;
+    transition: .5 ease;
+    overflow: hidden;
+}
+.overley h2{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    transform: translate(-20%, -50%);
+}
+.imagenes:hover .overley{
+    height: 30%;
+    cursor: pointer;
+    align-content: center;
+}
+.linea{
+    border-top: 5px solid black;
+}

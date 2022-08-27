@@ -1,0 +1,66 @@
+body{
+    background: #FDCAE1;
+}
+.logo{
+    max-width: 15%;
+    float: left;
+    margin: 10px;
+}
+.uno{
+    text-align: right;
+    font-size: 20px;
+    margin: 20px;
+}
+nav{
+    display: block;
+}
+nav a {
+    background: #FFB6C1;
+}
+.logo2{
+    max-width: 10%;
+    float: right;
+    margin: 10px;
+}
+h1{
+	font-family: 'Merriweather', serif;
+	font-size: 42px;
+	text-align: left;
+	margin: 10px;
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif; 
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.ubica{
+	margin: 190px 0px 50px 0px;
+}
+.map{
+	max-width: 45%;
+	float: right;
+	margin: 40px 60px 10px 0px;
+}
+.atencion{
+	font-size: 12px;
+	margin: 30px;
+	text-align: center;
+}
+.asis{
+	max-width: 265px;
+}
+.linea{
+    border-top: 5px solid black;
+}
+.imagNosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FDCAE1;
+}
+.Contacto{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
